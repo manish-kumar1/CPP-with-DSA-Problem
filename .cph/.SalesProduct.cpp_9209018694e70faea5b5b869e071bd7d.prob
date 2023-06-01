@@ -1,1 +1,0 @@
-{"name":"Local: SalesProduct","url":"c:\\Users\\HP\\OneDrive\\Desktop\\C++\\SalesProduct.cpp","tests":[{"id":1690220922374,"input":"7\n9 -13 8 -7 -8 18 10\n18","output":"2"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\Users\\HP\\OneDrive\\Desktop\\C++\\SalesProduct.cpp","group":"local","local":true}
