@@ -5,17 +5,16 @@ using namespace std;
 
 int main(){
 
-    int n = 5;
+    int n = 6;
     int j = n-1;
     int ans = 0;
-    int a[5] = {1, 3, 5, 7, 9};
-    
-    for(int i = 0; i < n; i++){
+    int a[6] = {7,1,5,3,6,4};
+    int maxi = 0;
+    for(int i = 0; i <n/2; i++){
         
-        ans = a[j] - a[i];
-        break;
-        
+        maxi = max(maxi, a[j] - a[i]);
+        j--;
     }
-    cout<< ans;
+    cout<< maxi;
 
 }
