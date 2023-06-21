@@ -25,6 +25,7 @@ int main(){
     cin >> n;
 
     int a[10];
+    
     for(int i = 0; i < n; i++){
         cin >> a[i];
     }
