@@ -16,5 +16,5 @@ int main(){
         j--;
     }
     cout<< maxi;
-
+    return 0;
 }
