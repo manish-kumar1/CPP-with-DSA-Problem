@@ -5,8 +5,10 @@
 using namespace std;
 
 int BinarySearch(vector<int> &v, int n, int target){
+
     int low = 0;
     int high = n - 1;
+    
     while(low <= high){
         int mid = low + (high - low) / 2;
         if(v[mid] == target){
