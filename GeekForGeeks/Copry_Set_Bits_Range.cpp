@@ -3,10 +3,13 @@
 using namespace std;
 
 int Copy_Set_Bits_Range(int x, int y, int left, int right){
+
     left--;
     right--;
+
     cout<<left<<endl;
     int temp;
+    
     for(int i = left; i <= right; i++){
         temp = (1 << i);
         if(y & temp){
