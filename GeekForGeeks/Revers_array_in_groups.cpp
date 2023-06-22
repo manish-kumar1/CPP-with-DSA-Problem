@@ -10,7 +10,9 @@ void print(vector<int> &arr, int n){
     cout<<endl;
 }
 void reversInGroups(vector<int> &arr, int n, int k){
+
     for(int i = 0; i < n; i += k){
+
         if(i + k < n){
             reverse(arr.begin()+i, arr.begin()+i+k);
         }
@@ -19,6 +21,7 @@ void reversInGroups(vector<int> &arr, int n, int k){
         }
     }
     print(arr, n);
+    
     return;
 }
 int main(){
