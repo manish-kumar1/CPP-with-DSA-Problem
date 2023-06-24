@@ -7,6 +7,7 @@ int i;
 int main(){
     
     cout<<i<<endl;
+    
     if(i);
     else{
         cout<<"Else";
