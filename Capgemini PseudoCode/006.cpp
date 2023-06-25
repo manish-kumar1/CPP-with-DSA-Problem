@@ -17,6 +17,7 @@ int main(){
         r = r + (p % 7);
         cout<<r;
     }
+    
     return 0;
 }
 
