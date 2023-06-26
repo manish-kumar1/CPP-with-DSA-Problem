@@ -8,6 +8,7 @@ int main(){
     a = 4, b = 5, c = 3;
 
     b = 3 + c;
+    
     a = b & a;
     c = c + b;
     a = a + b;
