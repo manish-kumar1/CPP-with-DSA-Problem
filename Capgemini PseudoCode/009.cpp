@@ -5,6 +5,7 @@ using namespace std;
 int main(){
 
     int p, q, r;
+    
     p = 2, q = 1, r = 3;
     
     p = q + r;
