@@ -6,7 +6,9 @@ int main(){
 
     int p;
     string str;
+
     str = "Capgemini";
+    
     p = str.size();
 
     cout<<(p ^ 1);
