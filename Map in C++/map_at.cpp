@@ -20,6 +20,7 @@ int main(){
     map1[4] = "jkl";
 
     map1[1] = 'd';
+    
     map1[2] = 'a';
 
     map1[3] = 't';
