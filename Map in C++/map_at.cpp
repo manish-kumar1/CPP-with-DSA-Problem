@@ -14,6 +14,7 @@ int main(){
     map1[1] = "abc";
 
     map1[2] = "def";
+    
     map1[3] = "ghi";
 
     map1[4] = "jkl";
