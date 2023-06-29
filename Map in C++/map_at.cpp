@@ -10,7 +10,6 @@ int main(){
     map<int, string> map1;
     map<int, char> map2;
     
-
     map1[1] = "abc";
 
     map1[2] = "def";
