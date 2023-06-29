@@ -26,7 +26,7 @@ int main(){
 
 
     // print the associated element
-    cout << "Element at map1[2] = "<< map1.at(2)<<endl;
+    cout << "Element at map1[2] = "<< map1.at(2) <<endl;
 
     // cout << "Element at map2[2] = "<< map2.at(2)<<endl;
 
