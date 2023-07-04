@@ -4,10 +4,12 @@
 using namespace std;
 
 bool isPosibleSolution(vector<int> &stalls, int k, int mid){
+
     int cowsCount = 1;
     int lastPosition = stalls[0];
 
     for(int i = 0; i < stalls.size(); i++){
+        
         if(stalls[i] - lastPosition >= mid){
             cowsCount++;
             if(cowsCount == k){
