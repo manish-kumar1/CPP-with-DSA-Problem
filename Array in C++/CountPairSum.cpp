@@ -12,8 +12,9 @@ int CountPairSum(int arr[], int n, int k){
         for(int j = 1; j < n; j++){
 
             sum = arr[i]+arr[j];
-            
+
             if(sum == k){
+                
                 count++;
             }
         }
