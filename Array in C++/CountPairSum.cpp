@@ -27,12 +27,13 @@ int main(){
     cin >> n;
 
     int arr[n];
-    
+
     for(int i = 0; i < n; i++){
         cin >> arr[i];
     }
     int k;
     cin >> k;
+    
     int ans = CountPairSum(arr, n, k);
     cout << ans;
     return 0;
