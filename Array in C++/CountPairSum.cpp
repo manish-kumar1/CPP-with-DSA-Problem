@@ -14,7 +14,7 @@ int CountPairSum(int arr[], int n, int k){
             sum = arr[i]+arr[j];
 
             if(sum == k){
-                
+
                 count++;
             }
         }
@@ -27,6 +27,7 @@ int main(){
     cin >> n;
 
     int arr[n];
+    
     for(int i = 0; i < n; i++){
         cin >> arr[i];
     }
