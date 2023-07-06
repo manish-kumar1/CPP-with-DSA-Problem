@@ -33,8 +33,9 @@ int main(){
     }
     int k;
     cin >> k;
-    
+
     int ans = CountPairSum(arr, n, k);
     cout << ans;
+    
     return 0;
 }
