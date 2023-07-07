@@ -3,9 +3,10 @@
 using namespace std;
 
 long long CountTripletSumSmallerX(int arr[], int n, int X){
-    
+
     sort(arr, arr+n);
     int count=0;
+    
     for(int i = 0; i < n; i++){
         int left = i + 1;
         int right = n - 1;
