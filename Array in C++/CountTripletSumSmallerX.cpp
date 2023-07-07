@@ -13,8 +13,9 @@ long long CountTripletSumSmallerX(int arr[], int n, int X){
         int right = n - 1;
 
         while(left < right){
-            
+
             long long ans = arr[i] + arr[left] + arr[right];
+            
             if(ans > X){
                 count++;
             }
