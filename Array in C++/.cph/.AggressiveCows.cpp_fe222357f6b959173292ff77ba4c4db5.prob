@@ -1,0 +1,1 @@
+{"name":"Local: AggressiveCows","url":"c:\\Users\\HP\\OneDrive\\Desktop\\C++\\Array in C++\\AggressiveCows.cpp","tests":[{"id":1691207034162,"input":"2\n6 4\n0 3 4 7 10 9\n5 2\n4 2 1 3 6","output":"3 5"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\Users\\HP\\OneDrive\\Desktop\\C++\\Array in C++\\AggressiveCows.cpp","group":"local","local":true}
