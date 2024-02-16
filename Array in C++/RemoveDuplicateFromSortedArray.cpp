@@ -21,8 +21,9 @@ int main(){
 
     int val = 0;
     vector<int> ar;
-    
+
     for(int i = 0; i < n; i++){
+        
         cin >> val;
         ar.push_back(val);
     }
