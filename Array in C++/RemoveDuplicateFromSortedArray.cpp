@@ -4,7 +4,7 @@
 using namespace std;
 
 int RemoveDuplicateFromSortedArray(vector<int> &ar){
-    
+
     int i = 0;
     for(int j = 1; j < ar.size(); j++){
         if(ar[i] != ar[j]){
@@ -21,6 +21,7 @@ int main(){
 
     int val = 0;
     vector<int> ar;
+    
     for(int i = 0; i < n; i++){
         cin >> val;
         ar.push_back(val);
