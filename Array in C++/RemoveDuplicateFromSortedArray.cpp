@@ -25,4 +25,6 @@ int main(){
         ar.push_back(val);
     }
     RemoveDuplicateFromSortedArray(ar);
+
+    return 0;
 }
